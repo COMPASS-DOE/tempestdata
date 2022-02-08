@@ -8,7 +8,7 @@
 A data frame with 493 rows and 16 variables
 }
 \usage{
-data(tmpst_inventory)
+data("tmpst_inventory")
 }
 \description{
 A dataset containing the species, size, status, and other attributes of trees

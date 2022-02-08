@@ -27,6 +27,6 @@
 #' @docType data
 #' @keywords datasets
 #' @name tmpst_inventory
-#' @usage data(tmpst_inventory)
+#' @usage data("tmpst_inventory")
 #' @format A data frame with 493 rows and 16 variables
 NULL
