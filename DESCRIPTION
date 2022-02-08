@@ -1,11 +1,18 @@
 Package: tempestdata
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Observational Data from the TEMPEST Experiment
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(person("Stephanie", "Pennington", 
+            email = "stephanie.pennington@pnnl.gov", 
+            role = "aut",
+            comment = c(ORCID = "0000-0003-2685-1092")),
+	     person("Ben", "Bond-Lamberty", 
+	        email = "bondlamberty@pnnl.gov", 
+	        role = "ctb", 
+	        comment = c(ORCID = "0000-0001-9525-4633")))
+Maintainer: Stephanie Pennington <stephanie.pennington@pnnl.gov>
+Description: This package provides easy access to observational data from
+    the TEMPEST experiment.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
