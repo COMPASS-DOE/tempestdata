@@ -4,6 +4,7 @@
 # tempestdata
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/COMPASS-DOE/tempestdata/workflows/R-CMD-check/badge.svg)](https://github.com/COMPASS-DOE/tempestdata/actions)
 <!-- badges: end -->
 
 The goal of tempestdata is to ...
