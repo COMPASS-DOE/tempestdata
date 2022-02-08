@@ -8,11 +8,11 @@ Authors@R: c(person("Stephanie", "Pennington",
             comment = c(ORCID = "0000-0003-2685-1092")),
 	     person("Ben", "Bond-Lamberty", 
 	        email = "bondlamberty@pnnl.gov", 
-	        role = "ctb", 
+	        role = "cre", 
 	        comment = c(ORCID = "0000-0001-9525-4633")))
-Maintainer: Stephanie Pennington <stephanie.pennington@pnnl.gov>
 Description: This package provides easy access to observational data from
     the TEMPEST experiment.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.2
