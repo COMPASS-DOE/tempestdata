@@ -14,7 +14,26 @@ knitr::opts_chunk$set(
 )
 ```
 
+Load the package and look at the tree inventory data:
+
 ```{r setup}
 library(tempestdata)
 summary(tmpst_inventory)
 ```
+
+Note that it's in 'wide' form, so for many applications we'd want to reshape
+it so that we have a year column to work with.
+
+Compute 2019 basal area (m2/ha):
+
+```{r}
+# Isolate the live trees only
+live2019 <- subset(tmpst_inventory, Status_2019 == "LI")
+# Compute per-tree basal area, converting DBH (cm) to basal area (m2)
+live2019$BA <- (live2019$DBH_2019 / 2) ^ 2 * pi / (100 * 100)
+# The TEMPEST plots are 2000 m2; scale to a per-ha basis
+live2019$BA <- live2019$BA * (10000 / 2000)
+# Compute total basal area per plot
+aggregate(BA ~ Plot, FUN = sum, data = live2019)
+```
+

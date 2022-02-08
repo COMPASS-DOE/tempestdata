@@ -18,7 +18,7 @@ LazyData: true
 Suggests: 
     knitr,
     rmarkdown,
-    tibble (>= 3.0)
+    tibble
 RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
