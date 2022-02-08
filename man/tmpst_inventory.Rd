@@ -11,8 +11,9 @@ A data frame with 493 rows and 16 variables
 data(tmpst_inventory)
 }
 \description{
-A dataset containing the species, size, status, and other attributes trees
-in the TEMPEST experimental plots. The variables are as follows:
+A dataset containing the species, size, status, and other attributes of trees
+in the TEMPEST experimental plots. The column names, types, and other
+information are listed below.
 }
 \details{
 \itemize{
