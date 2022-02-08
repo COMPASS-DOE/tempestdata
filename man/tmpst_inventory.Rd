@@ -5,7 +5,7 @@
 \alias{tmpst_inventory}
 \title{TEMPEST tree inventory}
 \format{
-A data frame with 493 rows and 16 variables
+A data frame with 493 rows and 16 variables.
 }
 \usage{
 data("tmpst_inventory")
@@ -17,14 +17,14 @@ information are listed below.
 }
 \details{
 \itemize{
-  \item Plot. Plot name (string, Control/Fresh/Salt)
-  \item Section. Plot section (string, East/Center/West)
+  \item Plot. Plot name (Control/Fresh/Salt) (string)
+  \item Section. Plot section (East/Center/West) (string)
   \item Tag. Tag number (integer)
   \item Grid. Grid square code (string)
   \item DBH_2019. Diameter at breast height (1.3m) in 2019 (numeric)
   \item Date_2019. Date of measurement in 2019 (date)
-  \item Species_code. Species code (genus + species; https://plants.usda.gov/)
-  \item Status_2019. ForestGEO status code (string, LI = living; DS = dead, stem standing; DC = dead, stem fallen)
+  \item Species_code. Species code (genus + species; https://plants.usda.gov/) (string)
+  \item Status_2019. ForestGEO status code (LI = living; DS = dead, stem standing; DC = dead, stem fallen) (string)
   \item DBH_2020. Diameter at breast height (1.3m) in 2020 (numeric)
   \item Date_2020. Date of measurement in 2020 (date)
   \item Status_2020. Status in 2020 (string)
